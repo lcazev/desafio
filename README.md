@@ -10,6 +10,9 @@
 ### Layout
 - Seguir o protótipo disponível no [Figma](https://www.figma.com/design/c8xS5wew3KBVVY62BS2imT/-internal--%F0%9F%94%93-Teste-t%C3%A9cnico).
 
+ ### API
+ - Na aplicação, será utilizada a API pública [rickandmortyapi](https://rickandmortyapi.com/documentation/#introduction) para o consumo das requisições dos personagens, deve ser utilizado a abordagem REST.
+
 ### Funcionalidades
 - Buscar um personagem pelo nome.
 - Exibir informações mínimas (nome, gênero e foto) sobre o(s) personagem(ns).
