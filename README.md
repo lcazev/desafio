@@ -7,7 +7,7 @@ Opcionais: Tailwind CSS, Chakra UI, Redux, Zustand
 Requisitos
 Layout:
 
-Seguir o protótipo disponível (use o link do Figma fornecido).
+Seguir o protótipo disponível: https://www.figma.com/design/c8xS5wew3KBVVY62BS2imT/-internal--%F0%9F%94%93-Teste-t%C3%A9cnico.
 Funcionalidades:
 
 Buscar um personagem pelo nome.
