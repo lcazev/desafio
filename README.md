@@ -1,4 +1,4 @@
-# desafio
+# Desafio
 
 Desafio: Aplicação de Personagens Favoritos de Rick & Morty
 Tecnologias
@@ -43,7 +43,7 @@ Configure a API para acessar os dados dos personagens.
 Implementação:
 
 Utilize hooks para gerenciar estados e efeitos, implementando o uso de RxJS conforme necessário.
-Utilize context ou uma biblioteca de gerenciamento de estado (Redux, Zustand) para os favoritos.
+Utilize context ou uma biblioteca de gerenciamento de estado (Redux, Zustand, Mobx) para os favoritos.
 Configure as chamadas à API para a busca de personagens e a manipulação da lista de favoritos.
 Deploy:
 
