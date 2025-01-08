@@ -1,4 +1,6 @@
 ## Desafio: Aplicação de Personagens Favoritos de Rick & Morty
+  Olá, obrigado pelo interesse em fazer parte da nossa equipe.
+  O objetivo deste teste é verificar suas habilidades de codificação, arquitetura e padronização.
 
 ## Tecnologias
 - **Obrigatórias:** React.js, Next.js, TypeScript, RxJS, Hooks
@@ -22,6 +24,9 @@
 - Inclua uma fonte personalizada do Google Fonts.
 - Otimize o uso de componentes (evite muita repetição).
 - Assegure que o layout seja responsivo.
+- Crie testes unitários
+- Procure trabalhar usando estratégias de branch: Por exemplo: Utilize a branch main ou master como principal e branchs secundárias para desenvolvimentos e teste
+- Procure trabalhar com mensagens de commits de forma clara e descritiva
 - Faça o deploy da aplicação. (Disponibilize o link no readme)
 - Suba em um github público e disponibilize o link para o entrevistador
 
