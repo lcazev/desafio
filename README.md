@@ -13,6 +13,12 @@
  ### API
  - Na aplicação, será utilizada a API pública [rickandmortyapi](https://rickandmortyapi.com/documentation/#introduction) para o consumo das requisições dos personagens, deve ser utilizado a abordagem REST.
 
+## Instruções
+- Procure trabalhar usando estratégias de branch: Por exemplo: Utilize a branch main ou master como principal e branchs secundárias para desenvolvimentos e teste
+- Procure trabalhar com mensagens de commits de forma clara e descritiva
+- Faça o deploy da aplicação. A aplicação só será avaliada se estiver rodando, se necessário crie um passo a passo para isto. (Disponibilize o link no readme)
+- Faça um clone do seu repositório em git pessoal para iniciar o desenvolvimento. (Disponibilize o link para o entrevistador)
+
 ### Funcionalidades
 - Buscar um personagem pelo nome.
 - Exibir informações mínimas (nome, gênero e foto) sobre o(s) personagem(ns).
@@ -28,10 +34,7 @@
 - Otimize o uso de componentes (evite muita repetição).
 - Assegure que o layout seja responsivo.
 - Crie testes unitários
-- Procure trabalhar usando estratégias de branch: Por exemplo: Utilize a branch main ou master como principal e branchs secundárias para desenvolvimentos e teste
-- Procure trabalhar com mensagens de commits de forma clara e descritiva
-- Faça o deploy da aplicação. (Disponibilize o link no readme)
-- Suba em um github público e disponibilize o link para o entrevistador
+
 
 ## História do Usuário
 - **Buscar Personagem:** Ao pesquisar um personagem, quero ver seu nome, gênero e foto.
