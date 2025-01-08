@@ -1,5 +1,3 @@
-# Desafio
-
 ## Desafio: Aplicação de Personagens Favoritos de Rick & Morty
 
 ## Tecnologias
