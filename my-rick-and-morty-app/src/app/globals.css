@@ -16,10 +16,34 @@
   }
 }
 
+.layout {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+
+.layout > :first-child {
+  position: sticky; 
+  top: 0; 
+  z-index: 10; 
+  background-color: var(--background-body); 
+  width: 100%;
+}
+
+.main-content {
+  overflow-y: auto; 
+  width: 100%;
+}
+
 body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
   color: var(--foreground);
   background: var(--background);
   font-family: var(--font-poppins), sans-serif; 
+  background-color: var(--background-body);
+  scroll-behavior: smooth;
 }
 
 .text-outline {

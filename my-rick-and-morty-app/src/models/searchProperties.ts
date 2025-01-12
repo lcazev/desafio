@@ -1,3 +1,5 @@
+
+
 export type PageTextMap ={
     boxTitle: string;
     title: string;
@@ -9,7 +11,7 @@ export type PageTextMap ={
 export type ResultsProps = {
     title: string;
     description: string;
-    hasButtonBack?: boolean
+    hasButtonBack?: boolean;
 }
 
 export type NavbarHomeProps = {
