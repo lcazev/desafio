@@ -14,7 +14,7 @@ const Navbar
     <>
     <div className="w-full bg-background flex items-center justify-between">
       <div >
-        <Image src="/logo.svg" alt="Ricky and Morty logo" width={114} height={64}/>
+        <Image src="logo.svg" alt="Ricky and Morty logo" width={114} height={64}/>
 
       </div>
       <div className="flex gap-4">
