@@ -15,15 +15,13 @@ const CharactersWrapper = ({ characters }: Props) => {
   return (
     <>
       <SimpleGrid columns={[1, 2, 3]} gap={6} padding={4} overflow="auto" height="auto">
-        {characters.map((character) =>
-          character.results.map((characterInfo) => (
+        {characters.map((characterInfo) =>
             <ProfileCard
               key={characterInfo.id}
               name={characterInfo.name}
               gender={characterInfo.gender}
               image={characterInfo.image}
             />
-          ))
         )}
       </SimpleGrid>
     </>
