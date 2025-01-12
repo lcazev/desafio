@@ -3,6 +3,7 @@ import { Creepster, Poppins } from "next/font/google";
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 import { Provider } from "@/components/ui/provider";
+import { TanstackProvider } from "@/components/providers/tanstack-provider";
 
 const creepster = Creepster({
   variable: "--font-creepster",
@@ -28,13 +29,15 @@ export default function RootLayout({
 }>) {
   return (
     <html suppressHydrationWarning lang="en" className={`${poppins.variable} ${creepster.variable} `}>
-      <body
-        className="antialiased bg-background_body"
-        >
-        <Provider >
-        <Navbar/>
-        {children}
-    </Provider>
+      <body className="antialiased bg-background_body min-h-screen">
+        <TanstackProvider>
+          <Provider>
+            <div className="layout">
+              <Navbar />
+              <main className="main-content">{children}</main>
+            </div>
+          </Provider>
+        </TanstackProvider>
       </body>
     </html>
   );
