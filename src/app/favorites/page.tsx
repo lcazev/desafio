@@ -14,7 +14,11 @@ const FavoritesPage = () => {
     ids: favoriteCharacterIds,
   });
 
-  const characters: CharacterResult[] = Array.isArray(data) ? data : [];
+  const characters: CharacterResult[] = Array.isArray(data)
+    ? data
+    : data
+    ? [data] 
+    : [];
 
   if (isFetching) {
     return (
@@ -39,7 +43,7 @@ const FavoritesPage = () => {
       paddingTop="3rem"
     >
       <NavbarHome boxTitle="Favoritos" hasSearch={false} />
-      {favoriteCharacterIds.length === 0 || !characters.length ? (
+      {favoriteCharacterIds.length === 0  ? (
         <Box
           bg="background"
           justifyContent="center"
