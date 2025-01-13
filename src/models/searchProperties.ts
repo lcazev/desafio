@@ -8,12 +8,6 @@ export type PageTextMap ={
     hasSearch: boolean;
 }
 
-export type ResultsProps = {
-    title: string;
-    description: string;
-    hasButtonBack?: boolean;
-}
-
 export type NavbarHomeProps = {
     boxTitle: string;
     hasSearch: boolean;
