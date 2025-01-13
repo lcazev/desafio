@@ -57,7 +57,7 @@ const FavoritesPage = () => {
           <Text fontSize="1.125rem" alignSelf="center">
             Volte à página inicial e escolha os melhores para você.
           </Text>
-          <Link href="/">
+          <Link href="/home">
             <Button bg="white" color="black" padding="0.5rem">
               Voltar ao início
             </Button>
