@@ -22,7 +22,7 @@ const Navbar
       </div>
       <div className="flex gap-4">
       <Group attached>
-      <Link href="/"><Button background={isHome ? "white": "black"} color={isHome ? "black": "white"} padding="1rem" ><MdHome/>Início</Button></Link>
+      <Link href="/home"><Button background={isHome ? "white": "black"} color={isHome ? "black": "white"} padding="1rem" ><MdHome/>Início</Button></Link>
       <Link href="/favorites"><Button background={isHome ? "black": "white"} color={isHome ? "white": "black"} padding="1rem"><FaHeart/>Favoritos  {favoritesCount > 0 && (
                   <Badge ml={2} borderRadius="full" fontSize="sm" padding="0.2rem 0.4rem" bg={isHome ? "white": "black"} color={isHome ? "black": "white"}>
                     {favoritesCount}
